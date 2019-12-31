@@ -208,3 +208,45 @@ header .masthead {
     width: 100%;
   }
 }
+
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+  .header {
+    width: 100%;
+    background-image: url("../img/wdigital.png");
+    background-size: auto;
+  }
+
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 6rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 4rem;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .card-deck-display {
+    display: inline-block;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+
+  .card-title {
+    font-size: 15px;
+  }
+
+  .card-text-space {
+    font-size: 10px;
+  }
+  .image-position {
+    width: 100%;
+  }
+}
