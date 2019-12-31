@@ -163,14 +163,32 @@ header .masthead {
   background-color: transparent;
 }
 
-@media (min-width: 992px) {
-  header.masthead {
-    padding-bottom: 10rem;
+@media (min-width: 375px) {
+  .header {
+    width: 100%;
+    background-image: url("../img/header2.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
+
   header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
   }
   header.masthead .masthead-content .masthead-subheading {
     font-size: 4rem;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .card-deck-display {
+    display: inline-block;
   }
 }
