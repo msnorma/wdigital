@@ -193,7 +193,7 @@ header .masthead {
   }
 
   .card-body {
-    padding: 10px;
+    padding: 1px;
   }
 
   .card-title {
@@ -201,6 +201,7 @@ header .masthead {
   }
 
   .card-text-space {
+    padding: 5px;
     font-size: 10px;
   }
 
@@ -228,7 +229,7 @@ header .masthead {
   }
 
   .title {
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .card-deck-display {
@@ -236,7 +237,7 @@ header .masthead {
   }
 
   .card-body {
-    padding: 10px;
+    padding: 1px;
   }
 
   .card-title {
@@ -244,6 +245,7 @@ header .masthead {
   }
 
   .card-text-space {
+    padding: 5px;
     font-size: 10px;
   }
   .image-position {
