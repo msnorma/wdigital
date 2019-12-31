@@ -163,10 +163,10 @@ header .masthead {
   background-color: transparent;
 }
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
   .header {
     width: 100%;
-    background-image: url("../img/header2.png");
+    background-image: url("../img/wdigital.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -190,5 +190,21 @@ header .masthead {
 
   .card-deck-display {
     display: inline-block;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+
+  .card-title {
+    font-size: 15px;
+  }
+
+  .card-text-space {
+    font-size: 10px;
+  }
+
+  .image-position {
+    width: 100%;
   }
 }
