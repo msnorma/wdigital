@@ -163,7 +163,9 @@ header .masthead {
   background-color: transparent;
 }
 
-@media (max-width: 375px) {
+/* Responsiveness */
+
+@media (max-width: 600px) {
   .header {
     width: 100%;
     background-image: url("../img/wdigital.png");
@@ -181,7 +183,7 @@ header .masthead {
   }
 
   .content {
-    padding: 20px;
+    padding: 50px;
   }
 
   .title {
@@ -192,12 +194,17 @@ header .masthead {
     display: inline-block;
   }
 
+  .card {
+    margin-top: 30px;
+  }
+
   .card-body {
     padding: 1px;
   }
 
   .card-title {
-    font-size: 15px;
+    font-size: 20pxpx;
+    padding-top: 5px;
   }
 
   .card-text-space {
@@ -210,7 +217,7 @@ header .masthead {
   }
 }
 
-@media only screen and (min-width: 414px) and (max-width: 767px) {
+@media only screen and (min-width: 600px){
   .header {
     width: 100%;
     background-image: url("../img/wdigital.png");
@@ -243,6 +250,47 @@ header .masthead {
   .card-title {
     font-size: 20px;
     padding-top: 5px;
+  }
+
+  .card-text-space {
+    padding: 5px;
+    font-size: 10px;
+  }
+  .image-position {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .header {
+    width: 100%;
+    background-image: url("../img/wdigital.png");
+    background-size: contain;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .card-deck-display {
+    display: inline-block;
+    padding: 0px 40px;
+  }
+
+  .card-body {
+    padding: 30px 0px;
+  }
+
+  .card-title {
+    font-size: 30px;
+  }
+
+  .card-text {
+    font-size: 25px;
   }
 
   .card-text-space {
