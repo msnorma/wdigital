@@ -22,18 +22,22 @@
   <!-- Custom styles for this template -->
   <link href="css/one-page-wonder.css" rel="stylesheet">
 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top" id="navbar">
     <div class="container">
       <a class="navbar-brand" href="#">WeeDigital</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse">
+      
+      <div class="collapse navbar-collapse" id="navbar-collapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="#noob">Noob Stories</a>
@@ -59,7 +63,7 @@
   <!-- Content -->
   <section>
     <div class="content" id="noob">
-      <h3 class="text-center title" style="margin: 50px 0px; color: antiquewhite;">NOOB STORIES</h3>
+      <h3 class="text-center title" style="margin: 50px 0px; color: #293039;">NOOB STORIES</h3>
       <div class="card-deck card-deck-display">
         <div class="card" style="border: none; background-color: transparent">
           <img src="img/xbox-series.jpg" class="card-img-top" id="myBtn" alt="xbox-series">
@@ -71,15 +75,15 @@
         <div class="card" style="border: none; background-color: transparent">
           <img src="img/xbox-series.jpg" class="card-img-top" alt="virtual-reality">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <h5 class="card-title">More content coming soon</h5>
+            <p class="card-text"></p>
           </div>
         </div>
         <div class="card" style="border: none; background-color: transparent">
           <img src="img/xbox-series.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <h5 class="card-title">More content coming soon</h5>
+            <p class="card-text"></p>
         </div>
       </div>
     </div>
@@ -107,8 +111,6 @@
               <br>
               <b>4K/60fps</b> - The more frames per second the smoother the quality, we are guaranteed an out of this world gaming experience given by the Zen 2 and RDNA architecture from AMD.
               <br>
-              <b>GDDR6 memory</b> -
-              <br>
               <b>NVMe solid-state storage</b> - Just know that it is faster than the SATA SSD.
               <br>
               <br>
@@ -118,6 +120,7 @@
               <b>Price?</b>
               <div class="col-12">
                 <img class="image-position" src="img/tf.gif" alt="wtf">
+                <h6 style="text-align: center; padding-top: 5px">CHIEF</h6>
               </div>
           </p>
         </div>
@@ -153,7 +156,7 @@
   <!-- Footer -->
   <footer class="py-5 bg-footer">
     <div class="container">
-      <p class="m-0 text-center text-white small">Copyright &copy; WeeDigital 2019</p>
+      <p class="m-0 text-center text-grey small">Copyright &copy; WeeDigital 2020</p>
     </div>
     <!-- /.container -->
   </footer>
@@ -184,6 +187,18 @@
       if (event.target == modal) {
         modal.style.display = "none";
       }
+    }
+  </script>
+  <script>
+    var prevPosition = window.pageYOffset;
+    window.onscroll = function() {
+      var currentPosition = window.pageYOffset;
+      if (prevPosition > currentPosition) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-80px";
+      }
+      prevPosition = currentPosition;
     }
   </script>
 
