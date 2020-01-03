@@ -183,7 +183,7 @@ header .masthead {
   }
 
   .content {
-    padding: 50px;
+    padding: 40px;
   }
 
   .title {
@@ -203,7 +203,7 @@ header .masthead {
   }
 
   .card-title {
-    font-size: 20pxpx;
+    font-size: 20px;
     padding-top: 5px;
   }
 
@@ -261,7 +261,7 @@ header .masthead {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 900px){
+@media only screen and (max-width: 900px){
   .header {
     width: 100%;
     background-image: url("../img/header2.png");
