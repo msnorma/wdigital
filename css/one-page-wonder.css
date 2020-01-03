@@ -217,7 +217,7 @@ header .masthead {
   }
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px) and (max-width: 768px){
   .header {
     width: 100%;
     background-image: url("../img/wdigital.png");
@@ -261,10 +261,10 @@ header .masthead {
   }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) and (max-width: 900px){
   .header {
     width: 100%;
-    background-image: url("../img/wdigital.png");
+    background-image: url("../img/header2.png");
     background-size: contain;
   }
 
@@ -273,7 +273,7 @@ header .masthead {
   }
 
   .title {
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .card-deck-display {
@@ -290,14 +290,6 @@ header .masthead {
   }
 
   .card-text {
-    font-size: 25px;
-  }
-
-  .card-text-space {
-    padding: 5px;
-    font-size: 10px;
-  }
-  .image-position {
-    width: 100%;
+    font-size: 24px;
   }
 }
