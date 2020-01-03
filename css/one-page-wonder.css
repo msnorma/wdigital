@@ -165,7 +165,7 @@ header .masthead {
 
 /* Responsiveness */
 
-@media (max-width: 600px) {
+@media (min-width: 414px) and (max-width: 600px) {
   .header {
     width: 100%;
     background-image: url("../img/wdigital.png");
@@ -261,7 +261,7 @@ header .masthead {
   }
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (min-width: 900px){
   .header {
     width: 100%;
     background-image: url("../img/header2.png");
