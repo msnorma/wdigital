@@ -21,10 +21,6 @@ h6 {
   font-weight: 400 !important;
 }
 
-a:hover {
-  color: transparent;
-}
-
 .header {
   height: 1000px;
   background-image: url("../img/header2.png");
@@ -40,8 +36,12 @@ a:hover {
   background-color: transparent;
 }
 
-.nav-link {
+a.nav-link {
   color: #293039 !important;
+}
+
+a.nav-link:hover {
+  color: #fefefe !important;
 }
 
 .navbar-custom .navbar-brand {
@@ -241,7 +241,8 @@ header .masthead {
   }
 
   .card-title {
-    font-size: 15px;
+    font-size: 20px;
+    padding-top: 5px;
   }
 
   .card-text-space {
