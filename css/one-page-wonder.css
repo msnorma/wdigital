@@ -164,26 +164,15 @@ header .masthead {
 }
 
 /* Responsiveness */
-
-@media (min-width: 414px) and (max-width: 600px) {
+@media only screen and (min-width: 320px) and (max-width: 375px){
   .header {
     width: 100%;
-    background-image: url("../img/wdigital.png");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url("../img/header2.png");
     background-size: contain;
   }
 
-  header.masthead .masthead-content .masthead-heading {
-    font-size: 6rem;
-  }
-  header.masthead .masthead-content .masthead-subheading {
-    font-size: 4rem;
-  }
-
   .content {
-    padding: 35px;
+    padding: 30px;
   }
 
   .title {
@@ -194,74 +183,20 @@ header .masthead {
     display: inline-block;
   }
 
-  .card {
-    margin-top: 30px;
-  }
-
   .card-body {
-    padding: 1px;
+    padding: 30px 0px;
   }
 
   .card-title {
     font-size: 20px;
-    padding-top: 5px;
   }
 
-  .card-text-space {
-    padding: 5px;
-    font-size: 10px;
-  }
-
-  .image-position {
-    width: 100%;
+  .card-text {
+    font-size: 15px;
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 768px){
-  .header {
-    width: 100%;
-    background-image: url("../img/wdigital.png");
-    background-size: auto;
-  }
-
-  header.masthead .masthead-content .masthead-heading {
-    font-size: 6rem;
-  }
-  header.masthead .masthead-content .masthead-subheading {
-    font-size: 4rem;
-  }
-
-  .content {
-    padding: 20px;
-  }
-
-  .title {
-    font-size: 17px;
-  }
-
-  .card-deck-display {
-    display: inline-block;
-  }
-
-  .card-body {
-    padding: 1px;
-  }
-
-  .card-title {
-    font-size: 20px;
-    padding-top: 5px;
-  }
-
-  .card-text-space {
-    padding: 5px;
-    font-size: 10px;
-  }
-  .image-position {
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 900px){
+@media only screen and (min-width: 414px) and (max-width: 900px){
   .header {
     width: 100%;
     background-image: url("../img/header2.png");
@@ -273,7 +208,7 @@ header .masthead {
   }
 
   .title {
-    font-size: 35px;
+    font-size: 20px;
   }
 
   .card-deck-display {
@@ -286,10 +221,10 @@ header .masthead {
   }
 
   .card-title {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .card-text {
-    font-size: 24px;
+    font-size: 15px;
   }
 }
