@@ -180,18 +180,6 @@
     }
   </script>
   <script>
-    var prevPosition = window.pageYOffset;
-    window.onscroll = function() {
-      var currentPosition = window.pageYOffset;
-      if (prevPosition > currentPosition) {
-        document.getElementById("navbar").style.top = "0";
-      } else {
-        document.getElementById("navbar").style.top = "-80px";
-      }
-      prevPosition = currentPosition;
-    }
-  </script>
-  <script>
     $(".navbar-toggler").on("click", function () {
       $(".navbar-collapse").toggle();
     });
