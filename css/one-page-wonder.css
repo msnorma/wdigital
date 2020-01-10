@@ -171,6 +171,11 @@ header .masthead {
     background-size: contain;
   }
 
+  .navbar-custom{
+    position: fixed !important;
+    background-color: #000;
+  }
+
   .content {
     padding: 30px;
   }
@@ -201,6 +206,11 @@ header .masthead {
     width: 100%;
     background-image: url("../img/header2.png");
     background-size: contain;
+  }
+
+  .navbar-custom{
+    position: fixed !important;
+    background-color: #000;
   }
 
   .content {
