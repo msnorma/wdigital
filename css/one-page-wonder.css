@@ -191,7 +191,7 @@ header .masthead {
 @media only screen and (min-width: 320px) and (max-width: 410px){
   .header {
     width: 100%;
-    background-image: url("../img/weedigital.png");
+    background-image: url("../img/weedigitalLogo.png");
   }
 
   .navbar-custom{
@@ -231,7 +231,7 @@ header .masthead {
 @media only screen and (min-width: 411px) and (max-width: 900px){
   .header {
     width: 100%;
-    background-image: url("../img/weedigital.png");
+    background-image: url("../img/weedigitalLogo.png");
   }
 
   .navbar-custom{
