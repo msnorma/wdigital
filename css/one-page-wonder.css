@@ -197,7 +197,6 @@ header .masthead {
   .header {
     width: 100%;
     background-image: url("../img/weedigital.png");
-    background-size: contain;
   }
 
   .navbar-custom{
@@ -226,7 +225,11 @@ header .masthead {
   }
 
   .card-text {
-    font-size: 18px;
+    font-size: 10px;
+  }
+
+  ul {
+    font-size: 10px;
   }
 }
 
@@ -234,7 +237,6 @@ header .masthead {
   .header {
     width: 100%;
     background-image: url("../img/weedigital.png");
-    background-size: contain;
   }
 
   .navbar-custom{
@@ -264,7 +266,11 @@ header .masthead {
   }
 
   .card-text {
-    font-size: 18px;
+    font-size: 10px;
+  }
+
+  ul {
+    font-size: 10px;
   }
 
   .image-position{
