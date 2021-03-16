@@ -83,12 +83,12 @@ header .masthead {
   overflow: hidden;
   transition: transform .5s ease;
 }
-
+/*
 .card-img-top:hover {
   transform: scale(0.5);
   opacity: 1;
   height: 400px;
-}
+}*/
 
 /* The Modal (background) */
 .modal {
